@@ -7,6 +7,8 @@
         .scale(48500)
         .translate([this.width / 2, this.height / 2]);
         
-     //geoJson 轮廓
-     this.path = d3.geo.path()
+        
+    //geoJson 轮廓
+   this.path = d3.geo.path()
          .projection(this.projection);
+        
