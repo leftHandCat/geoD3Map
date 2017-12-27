@@ -11,6 +11,7 @@
         
         
     //geoJson 轮廓
-   this.path = d3.geo.path()
+    
+    this.path = d3.geo.path()
          .projection(this.projection);
         
